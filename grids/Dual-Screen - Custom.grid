@@ -1,5 +1,5 @@
 [Groups]
-	NumberOfGroups = 25
+	NumberOfGroups = 26
 
 [1]
 	TriggerTop    = [Monitor1Top] + [Monitor1Height] /60
@@ -65,7 +65,7 @@
   TriggerTop    = [Monitor2Top] + [Monitor2Height] /3
   TriggerRight  = [Monitor2Left] + [Monitor2Width]  /3 * 2
   TriggerBottom = [Monitor2Bottom] - [Monitor2Height] /3
-  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /3 * 1.5
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /2
   GridTop       = [Monitor2Top]
   GridRight     = [Monitor2Left] + [Monitor2Width]  /3 * 2
   GridBottom    = [Monitor2Bottom]
@@ -124,7 +124,7 @@
 [13]
   TriggerTop    = [Monitor2Top] + [Monitor2Height] /60
   TriggerRight  = [Monitor2Right] - [Monitor2Width] /8
-  TriggerBottom = [Monitor2Top]  + [Monitor2Height] /2
+  TriggerBottom = [Monitor2Top]  + [Monitor2Height] /3
   TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /3 *2
   GridTop       = [Monitor2Top]
   GridRight     = [Monitor2Right] - [Monitor2Width] /8
@@ -132,7 +132,7 @@
   GridLeft      = [Monitor2Left] + [Monitor2Width]  /3 *2
 
 [14]
-  TriggerTop    = [Monitor2Top]  + [Monitor2Height] /2
+  TriggerTop    = [Monitor2Top]  + [Monitor2Height] /3 *2
   TriggerRight  = [Monitor2Right] - [Monitor2Width] /8
   TriggerBottom = [Monitor2Bottom]         
   TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /3 *2
@@ -250,3 +250,16 @@
   GridRight     = [Monitor2Right] - [Monitor2Width] /3
   GridBottom    = [Monitor2Bottom]
   GridLeft      = [Monitor2Left] + [Monitor2Width] /3
+
+[26]
+  TriggerTop    = [Monitor2Top] + [Monitor2Height] / 3
+  TriggerRight  = [Monitor2Right]
+  TriggerBottom = [Monitor2Bottom] - [Monitor2Height] /3
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /3 *1.5
+  GridTop       = [Monitor2Top]
+  GridRight     = [Monitor2Right]
+  GridBottom    = [Monitor2Bottom]
+  GridLeft      = [Monitor2Right] - [Monitor2Width]  /3 *2
+
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]  /3 * 1.5
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /6
