@@ -1,5 +1,5 @@
 [Groups]
-	NumberOfGroups = 31
+	NumberOfGroups = 32
 
 [1]
 	TriggerTop    = [Monitor1Top] + [Monitor1Height] /60
@@ -36,10 +36,10 @@
 	TriggerRight  = [Monitor1Right] - [Monitor1Width]  /3
 	TriggerBottom = [Monitor1Bottom] - [Monitor1Height] / 3
 	TriggerLeft   = [Monitor1Left] + [Monitor1Width]  /2
-	GridTop       = [Monitor1Top]
-	GridRight     = [Monitor1Right]
-	GridBottom    = [Monitor1Bottom]
-	GridLeft      = [Monitor1Left] + [Monitor1Width]  /3
+  GridTop       = [Monitor1Top]
+  GridRight     = [Monitor1Left] + [Monitor1Width]  /3 * 2
+  GridBottom    = [Monitor1Bottom]
+  GridLeft      = [Monitor1Left] + [Monitor1Width]  /3
  
 [5]
 	TriggerTop    = [Monitor2Top] + [Monitor2Height] /60
@@ -63,9 +63,9 @@
 
 [7]
   TriggerTop    = [Monitor2Top] + [Monitor2Height] /3
-  TriggerRight  = [Monitor2Left] + [Monitor2Width]  /3 * 2
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]  /3 *1.5
   TriggerBottom = [Monitor2Bottom] - [Monitor2Height] /3
-  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /2
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /3
   GridTop       = [Monitor2Top]
   GridRight     = [Monitor2Left] + [Monitor2Width]  /3 * 2
   GridBottom    = [Monitor2Bottom]
@@ -93,9 +93,9 @@
 
 [10]
   TriggerTop    = [Monitor2Top] + [Monitor2Height] / 3
-  TriggerRight  = [Monitor2Left] + [Monitor2Width]  /6
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]  /3
   TriggerBottom = [Monitor2Bottom] - [Monitor2Height] /3
-  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /60
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]  /6
   GridTop       = [Monitor2Top]
   GridRight     = [Monitor2Left] + [Monitor2Width]  /3 *2
   GridBottom    = [Monitor2Bottom]
@@ -164,7 +164,7 @@
 [17]
   TriggerTop    = [Monitor1Top] + [Monitor1Height] /60
   TriggerRight  = [Monitor1Right] - [Monitor1Width] /60
-  TriggerBottom = [Monitor1Top] + [Monitor1Height] /2
+  TriggerBottom = [Monitor1Top] + [Monitor1Height] /3
   TriggerLeft   = [Monitor1Right] - [Monitor1Width]  /3
   GridTop       = [Monitor1Top]
   GridRight     = [Monitor1Right]
@@ -172,7 +172,7 @@
   GridLeft      = [Monitor1Right] - [Monitor1Width]  /3
 
 [18]
-  TriggerTop    = [Monitor1Top] + [Monitor1Height] /2
+  TriggerTop    = [Monitor1Bottom] - [Monitor1Height] /3
   TriggerRight  = [Monitor1Right] - [Monitor1Width] /60
   TriggerBottom = [Monitor1Bottom]
   TriggerLeft   = [Monitor1Right] - [Monitor1Width]  /3
@@ -183,9 +183,9 @@
 
 [19]
   TriggerTop    = [Monitor1Top] + [Monitor1Height] / 3
-  TriggerRight  = [Monitor1Left] + [Monitor1Width]  /6
+  TriggerRight  = [Monitor1Left] + [Monitor1Width]  /3
   TriggerBottom = [Monitor1Bottom] - [Monitor1Height] /3
-  TriggerLeft   = [Monitor1Left] + [Monitor1Width]  /60
+  TriggerLeft   = [Monitor1Left] + [Monitor1Width]  /6
   GridTop       = [Monitor1Top]
   GridRight     = [Monitor1Left] + [Monitor1Width]  /3 *2
   GridBottom    = [Monitor1Bottom]
@@ -263,9 +263,9 @@
 
 [27]
   TriggerTop    = [Monitor2Top] + [Monitor2Height] /3
-  TriggerRight  = [Monitor2Left] + [Monitor2Width] /3 *1.5
+  TriggerRight  = [Monitor2Left] + [Monitor2Width] /3 *2
   TriggerBottom = [Monitor2Top] + [Monitor2Height] /2
-  TriggerLeft   = [Monitor2Left] + [Monitor2Width] /3
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width] /3 *1.5
   GridTop       = [Monitor2Top]
   GridRight     = [Monitor2Right]
   GridBottom    = [Monitor2Top] + [Monitor2Height]  /2
@@ -273,9 +273,9 @@
 
 [28]
   TriggerTop    = [Monitor2Top] + [Monitor2Height] /2
-  TriggerRight  = [Monitor2Left] + [Monitor2Width] /3 *1.5
+  TriggerRight  = [Monitor2Left] + [Monitor2Width] /3 *2
   TriggerBottom = [Monitor2Bottom] - [Monitor2Height] /3
-  TriggerLeft   = [Monitor2Left] + [Monitor2Width] /3
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width] /3 *1.5
   GridTop       = [Monitor2Top] + [Monitor2Height]  /2
   GridRight     = [Monitor2Right]
   GridBottom    = [Monitor2Bottom]
@@ -310,3 +310,13 @@
   GridRight     = [Monitor1Right]
   GridBottom    = [Monitor1Bottom]
   GridLeft      = [Monitor1Left] + [Monitor1Width]  /3 *2
+
+[32]
+  TriggerTop    = [Monitor1Top] + [Monitor1Height] / 3
+  TriggerRight  = [Monitor1Right] - [Monitor1Width] / 6
+  TriggerBottom = [Monitor1Bottom] - [Monitor1Height] / 3
+  TriggerLeft   = [Monitor1Right] - [Monitor1Width] / 3
+  GridTop       = [Monitor1Top]
+  GridRight     = [Monitor1Right]
+  GridBottom    = [Monitor1Bottom]
+  GridLeft      = [Monitor1Left] + [Monitor1Width]  /3
